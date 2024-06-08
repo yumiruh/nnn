@@ -75,3 +75,54 @@ p {
     margin-top: 10px;
 }
 
+@media(max-width: 800px) {
+    header {
+        background: #dba990 ;
+        width: 1124px;
+        height: 68px;
+        border: 1px solid #ce8865;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .navLink {
+        text-decoration: none;
+        color: #ffffff;
+        font-size: 30px;
+        font-family: "Caveat", cursive;
+        margin-left: 10px;
+        margin-right: 10px;
+        -webkit-text-stroke:0.5px #000000 ;
+        font-weight: bold;
+    }
+    
+}
+
+@media(max-width: 640px) {
+    header {
+        background: #dba990 ;
+        width: 1124px;
+        height: 68px;
+        border: 1px solid #ce8865;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .navLink {
+        text-decoration: none;
+        color: #ffffff;
+        font-size: 24px;
+        font-family: "Caveat", cursive;
+        margin-left: 10px;
+        margin-right: 10px;
+        -webkit-text-stroke:0.5px #000000 ;
+        font-weight: bold;
+    }
+
+    img {
+        width: 200px;
+        height: 200px;
+        
+    }
+    
+}
